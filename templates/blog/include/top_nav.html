@@ -1,0 +1,11 @@
+{% load menu_tags %}
+
+<nav class="header__menu">
+    <ul>
+        <li class="active"><a href="/">Main</a></li>
+        {% get_last_posts %}
+        {% get_categories %}
+        <li><a href="{% url 'about' %}">About us</a></li>
+        <li><a href="{% url 'contact' %}">Contacts</a></li>
+    </ul>
+</nav>
