@@ -765,7 +765,7 @@ ol {
 
 .hero__inside__item {
 	position: relative;
-	height: 633px;
+	height: 300px;
 	margin-bottom: 11px;
 	margin-right: 11px;
 }
@@ -2574,7 +2574,7 @@ ol {
 /*---------------------
   Contact
 -----------------------*/
-.contact_icon {
+.contact_icon img {
 	max-width: 5%;
 }
 .contact {

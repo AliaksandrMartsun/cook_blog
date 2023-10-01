@@ -25,6 +25,7 @@ class ContactLink(models.Model):
 
 class About(models.Model):
     """Класс модели страницы about us"""
+    name = models.CharField(max_length=50, default='')
     text = RichTextField()
     mini_text = RichTextField()
 
